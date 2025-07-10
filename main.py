@@ -3,7 +3,7 @@ import requests
 from PIL import Image
 from io import BytesIO
 
-key="5c66bc142dba84175f515250b853e5ad5bb77b69f6b65024984557319a73b9b3"
+key=#"get your api key from Together"
 client = Together(api_key=key)
 
 def image(prompt):
